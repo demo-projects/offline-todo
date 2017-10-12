@@ -1,0 +1,33 @@
+{
+  "name": "offline-mvc",
+  "version": "1.0.0",
+  "description": "reference code for my offline first talk",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demo-projects/offline-todo.git"
+  },
+  "keywords": [
+    "offline",
+    "service",
+    "worker",
+    "indexed",
+    "db",
+    "cache",
+    "javascript",
+    "web",
+    "development"
+  ],
+  "author": "nir kaufman <nirkaufman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demo-projects/offline-todo/issues"
+  },
+  "homepage": "https://github.com/demo-projects/offline-todo#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
