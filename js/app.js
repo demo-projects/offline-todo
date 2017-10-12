@@ -23,3 +23,6 @@
 	$on(window, 'load', setView);
 	$on(window, 'hashchange', setView);
 })();
+
+navigator.serviceWorker.register('../sw.js')
+.then( () => console.log('register success') )

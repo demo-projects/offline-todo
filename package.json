@@ -4,7 +4,7 @@
   "description": "reference code for my offline first talk",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -p 3000"
+    "start": "http-server -p 3031"
   },
   "repository": {
     "type": "git",
