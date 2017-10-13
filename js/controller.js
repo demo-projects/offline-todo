@@ -162,13 +162,9 @@
 	 */
 	Controller.prototype.removeCompletedItems = function () {
 		var self = this;
-		self.model.read({ completed: true }, function (data) {
-			data.forEach(function (item) {
-				self.removeItem(item.id);
-			});
-		});
-
-		self._filter();
+		self.model.removeAll(function () {
+			self.view.render('showEntries', []);
+		});		
 	};
 
 	/**
